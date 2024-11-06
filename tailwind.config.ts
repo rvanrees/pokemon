@@ -9,11 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        grass: "#22c55e",
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [],
 };
 export default config;
